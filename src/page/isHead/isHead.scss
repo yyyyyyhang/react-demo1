@@ -1,0 +1,17 @@
+@function rem($px) {
+  @return $px/46.875*2+rem;
+}
+
+.headBox {
+  width: rem(375);
+  background-color: greenyellow;
+  text-align: center;
+  border-bottom: 1px solid #c1c1c1;
+  .headLeftBtn {
+    font-size: 0.5rem;
+    line-height: 50px;
+    color: #333;
+    float: left;
+    padding-left: 1rem;
+  }
+}
